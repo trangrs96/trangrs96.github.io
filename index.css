@@ -1,0 +1,26 @@
+* {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+body {
+	font-family: Quicksand;
+}
+.header-img {
+	background: url(https://cdn.fstoppers.com/styles/full/s3/media/2017/09/11/autumn_food_photography_0.jpg);
+}
+.header {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.container {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 2fr 2fr 1fr;
+	grid-gap: 10px;
+}
+.column {
+	margin-top: 60px;
+	font-weight: bold;
+}
